@@ -54,6 +54,7 @@ public class InscritoController {
 		//inscripcionService.findByEstudianteCurso(inscripcionRequest.getCurso(), inscripcionRequest.getEstudiante());
 		//Inscripcion inscripcionCurso = inscripcionService.findByEstudianteCurso(inscripcionRequest.getCurso(), inscripcionRequest.getEstudiante()).get(0);
 		//System.out.print(inscripcionCurso);
+		//comentario para que se vuelva deployar
 	Inscripcion inscripcion = new Inscripcion(inscripcionRequest.getEstudiante(),
 			inscripcionRequest.getCurso());
 	inscripcionRepository.save(inscripcion);
