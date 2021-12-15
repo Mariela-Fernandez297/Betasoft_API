@@ -68,6 +68,7 @@ public class CursoController {
 	}
 	
 	//@PostMapping("/eliminar")
+	//comentario random
 
 	@DeleteMapping("/curso/{id}")
 	
